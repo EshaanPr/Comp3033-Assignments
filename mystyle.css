@@ -1,0 +1,84 @@
+/* mystyle.css */
+
+/* font, color, bg */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  color: #333;
+  background: linear-gradient(135deg, #2d0036 0%, #bfff00 100%);
+  margin: 0;
+  padding: 0;
+}
+
+/* nav bar green */
+nav {
+  background-color: #32cd32;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* nav links */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* footer green */
+footer {
+  background-color: #32cd32;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* main box */
+main {
+  background-color: white;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 900px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+/* tables */
+main table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+main th, main td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+main th {
+  background-color: #94d2bd;
+}
+
+/* red headers */
+h1, h2 {
+  color: #d90429;
+}
+
+/* main links */
+main a {
+  color: #008891;
+  text-decoration: none;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+
